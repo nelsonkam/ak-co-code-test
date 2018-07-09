@@ -1,0 +1,103 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+.header {
+  background-color: black;
+  color: white;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header h2 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.search {
+  padding: 10px 16px;
+  width: 40%;
+  border-radius: 100px;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #fff; */
+}
+.search input {
+  background-color: black;
+  border: none;
+  font-size: 14px;
+  color: white;
+  width: 100%;
+}
+
+.content {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.support-topics {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+}
+.support-topics > * {
+  
+}
+.card {
+  width: 25%;
+}
+.card-content {
+  margin: 8px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+}
+.card-content a {
+  text-decoration: none;
+  color: black;
+}
+.contact-support {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contact-support p {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+}
+.pill-button {
+  padding: 8px 24px;
+  background-color: #FF0D0E;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 100px;
+}
+
+.footer {
+  background-color: black;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer p {
+  color: #FFFFFF;
+  margin: 0;
+  opacity: 0.5;
+  font-size: 14px;
+}
